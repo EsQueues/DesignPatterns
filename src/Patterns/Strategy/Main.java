@@ -33,7 +33,7 @@ public class Main {
        list.add(machine5);
        list.add(machine6);
        for(Machine machine:list){
-           machine.getForAvgPriceeachTupeTransport();
+//           machine.getForAvgPriceeachTupeTransport();
         }
     }
 }

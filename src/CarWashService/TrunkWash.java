@@ -7,6 +7,11 @@ public class TrunkWash  extends WashDecorator{
     }
 
     @Override
+    public String action() {
+        return super.action()+"+Washing trunk of this car";
+    }
+
+    @Override
     public int getPrice() {
         return super.getPrice()+1500;
     }

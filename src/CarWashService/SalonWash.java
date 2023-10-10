@@ -7,6 +7,11 @@ public class SalonWash extends WashDecorator{
     }
 
     @Override
+    public String action() {
+        return super.action()+"+extended salon the car";
+    }
+
+    @Override
     public int getPrice() {
         return super.getPrice()+3000;
     }

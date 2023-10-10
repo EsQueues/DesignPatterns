@@ -5,9 +5,8 @@ public class Main {
 
 
         Washer wash=new TrunkWash(new SalonWash(new BaseWash()));
-        System.out.println(wash.getPrice());
-
-
+        System.out.println(wash.action());
+        System.out.println("for the price:"+wash.getPrice());
 
     }
 }

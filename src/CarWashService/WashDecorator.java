@@ -12,5 +12,10 @@ public class WashDecorator implements Washer {
         return washer.getPrice();
     }
 
+    @Override
+    public String action() {
+        return washer.action();
+    }
+
 
 }
