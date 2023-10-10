@@ -12,7 +12,7 @@ public class Machine {
         this.price = price;
         this.year = year;
     }
-    public void getForAvgPriceeachTupeTransport(){
+    public void getForAvgPriceEachTypeTransport(){
         transport.type();
     }
 }
