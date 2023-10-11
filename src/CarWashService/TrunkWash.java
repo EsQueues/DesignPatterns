@@ -1,7 +1,6 @@
 package CarWashService;
 
 public class TrunkWash  extends WashDecorator{
-
     public TrunkWash(Washer service) {
         super(service);
     }

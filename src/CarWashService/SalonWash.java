@@ -2,6 +2,7 @@ package CarWashService;
 
 public class SalonWash extends WashDecorator{
 
+
     public SalonWash(Washer service) {
         super(service);
     }

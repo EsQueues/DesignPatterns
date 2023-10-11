@@ -7,6 +7,7 @@ public class WashDecorator implements Washer {
         this.washer = service;
     }
 
+
     @Override
     public int getPrice() {
         return washer.getPrice();

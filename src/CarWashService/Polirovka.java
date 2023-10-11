@@ -1,6 +1,7 @@
 package CarWashService;
 
 public class Polirovka extends WashDecorator{
+
     @Override
     public String action() {
         return super.action()+"extended to polirovka to color";
