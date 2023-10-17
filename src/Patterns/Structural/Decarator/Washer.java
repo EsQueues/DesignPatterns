@@ -1,4 +1,4 @@
-package CarWashService;
+package Patterns.Structural.Decarator;
 
 public interface Washer {
 public int getPrice();

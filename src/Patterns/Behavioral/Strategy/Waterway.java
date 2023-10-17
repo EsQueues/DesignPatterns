@@ -1,4 +1,4 @@
-package Patterns.Strategy;
+package Patterns.Behavioral.Strategy;
 
 public class Waterway implements Transport {
 

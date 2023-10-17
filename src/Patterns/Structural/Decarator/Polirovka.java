@@ -1,4 +1,4 @@
-package CarWashService;
+package Patterns.Structural.Decarator;
 
 public class Polirovka extends WashDecorator{
 

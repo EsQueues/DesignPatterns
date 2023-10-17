@@ -1,4 +1,4 @@
-package CarWashService;
+package Patterns.Structural.Decarator;
 
 public abstract class WashDecorator implements Washer {
     Washer washer;
