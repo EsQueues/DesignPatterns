@@ -1,8 +1,8 @@
 package Patterns.Structural.Adapter;
 
-public class RelatoinaldbToNonrelationdbADAPTER implements RelationalDb{
+public class RelatoinalDBToNonRelationDBADAPTER implements RelationalDb{
     NoRelationDb noRelationDb;
-    public RelatoinaldbToNonrelationdbADAPTER(NoRelationDb noRelationDb){
+    public RelatoinalDBToNonRelationDBADAPTER(NoRelationDb noRelationDb){
         this.noRelationDb=noRelationDb;
     }
 
